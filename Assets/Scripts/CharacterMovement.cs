@@ -24,6 +24,7 @@ public class CharacterMovement : MonoBehaviour
         Movement();
         Jump();
     }
+   
     void Movement()
     {
         float horizontal = Input.GetAxis("Horizontal");
